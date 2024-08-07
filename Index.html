@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Conexión</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body class="dark-mode">
+    <div class="switch-container">
+        <label class="switch">
+            <input type="checkbox" class="input" id="modeSwitch">
+            <span class="slider"></span>
+        </label>
+    </div>
+    <div class="container">
+        <h1>Interfaz de Conexión</h1>
+        <input type="text" id="textbox" placeholder="Ingrese texto aquí">
+        <button id="connectButton">Conectar</button>
+        <button id="toggleListButton">Mostrar Listas</button>
+        <div class="lists">
+            <ul id="listView1" class="list-view"></ul>
+            <ul id="listView2" class="list-view"></ul>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+
+</html>
